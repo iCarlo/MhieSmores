@@ -7,6 +7,7 @@
     background-color: rgb(0, 0, 0);
 }
 
+
 #logo-name {
     font-family: 'Carter One', cursive;
     color: #F9DDB0;
@@ -57,4 +58,11 @@
 /* MAIN HEREO */
 .main-hero-img {
     max-height: 670px;
+}
+
+
+@media (min-width: 576px) {
+    .container {
+      max-width: 1400px !important;
+    }
 }
