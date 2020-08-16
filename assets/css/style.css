@@ -52,3 +52,9 @@
     background-color: rgb(54, 53, 53);
     color: #f5c577;
 }
+
+
+/* MAIN HEREO */
+.main-hero-img {
+    max-height: 670px;
+}
