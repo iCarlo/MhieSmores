@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.nav-bar {
+    background-color: rgb(0, 0, 0);
+}
+
+#logo-name {
+    font-family: 'Carter One', cursive;
+    color: #F9DDB0;
+}
+#nav-home, #nav-flavors, #nav-events, #nav-about, #nav-contact, #navbarDropdown {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #F9DDB0;
+}
+#nav-home:hover, #nav-flavors:hover, #nav-events:hover, #nav-about:hover, #nav-contact:hover, #navbarDropdown:hover, #logo-name:hover {
+    color: #f5c577;
+}
+#nav-home:focus, #nav-flavors:focus, #nav-events:focus, #nav-about:focus, #nav-contact:focus, #navbarDropdown:focus, #logo-name:focus {
+    color: #f5c577;
+}
+
+.buttons {
+    background-color: #EF3B24;
+    border: 1px solid #EF3B24;
+    border-radius: 20px;
+    padding: 8px 13px 8px 13px;
+}
+.buttons:hover, .buttons:focus {
+    background-color: #cc2f1a;
+    border: 1px solid #cc2f1a;
+}
+
+#navbar-btn {
+    border: 1px solid #F9DDB0;
+}
+
+#dropdown-list1, #dropdown-list2, #dropdown-list3  {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 13.5px;
+    color: #F9DDB0;
+}
+#drop-down {
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ffffff;
+}
+#dropdown-list1:hover, #dropdown-list2:hover, #dropdown-list3:hover  {
+    background-color: rgb(54, 53, 53);
+    color: #f5c577;
+}
