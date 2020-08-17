@@ -2,7 +2,16 @@
     box-sizing: border-box;
 }
 
+
 /* HEADER */
+body {
+    position: relative;
+}
+.navbar-section header {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
 .nav-bar {
     background-color: rgb(22, 22, 22);
 }
@@ -71,7 +80,7 @@
 /* PARALLAX */
 .parallax-1{
     background-image: url('../img/parallax1.jpg');
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
