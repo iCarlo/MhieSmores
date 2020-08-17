@@ -8,7 +8,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 2;
+    z-index: 9;
 }
 .nav-bar {
     background-color: rgb(22, 22, 22); 
@@ -70,20 +70,32 @@
 /* MAIN HEREO */
 .main-hero-img {
     height: 760px;
-    /* max-height: 770px; */
+    min-height: 700px;
+    max-height: 760px; 
 }
 
 
 
 /* PARALLAX */
-.parallax-1{
-    background-image: url('../img/parallax1.jpg');
-    height: 50vh;
+.parallax {
+    height: 30vh;
     width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100%;
-
+}
+.parallax-1{
+    background-image: url('../img/parallax1.jpg');    
+}
+.parallax-2{
+    background-image: url('../img/parallax2.jpg');    
+}
+.parallax-3{
+    background-image: url('../img/parallax3.jpg');    
+}
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
 }
