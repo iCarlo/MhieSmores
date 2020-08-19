@@ -86,13 +86,13 @@
     background-size: cover;
 }
 .parallax-1{
-    background-image: url('../img/parallax1.jpg');    
+    background-image: url('../img/parallax/parallax1.jpg');    
 }
 .parallax-2{
-    background-image: url('../img/parallax2.jpg');    
+    background-image: url('../img/parallax/parallax2.jpg');    
 }
 .parallax-3{
-    background-image: url('../img/parallax3.jpg');    
+    background-image: url('../img/parallax/parallax3.jpg');    
 }
 @media only screen and (max-device-width: 1366px) {
     .parallax {
