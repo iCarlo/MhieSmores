@@ -99,9 +99,13 @@ p {
 }
 
 /* MAIN HEREO */
+#main-hero {
+  background-color: black;
+  position: relative;
+  top: 85px;
+}
 .main-hero-img {
-  height: 760px;
-  min-height: 700px;
+  height: 600px;
   max-height: 760px;
 }
 
