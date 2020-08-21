@@ -1,101 +1,135 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
+.page-title {
+  font-family: "Carter One", cursive;
+  color: #f9ddb0;
+}
+p {
+  font-family: "Domine", serif;
+  color: white;
+}
 
 /* HEADER */
 .navbar-header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 20;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
 }
 .nav-bar {
-    background-color: rgb(22, 22, 22); 
+  background-color: rgb(22, 22, 22);
 }
 @media (min-width: 576px) {
-    .container {
-      max-width: 1400px !important;
-    }
+  .container {
+    max-width: 1400px !important;
+  }
 }
-
 
 #logo-name {
-    font-family: 'Carter One', cursive;
-    color: #F9DDB0;
+  font-family: "Carter One", cursive;
+  color: #f9ddb0;
 }
-#nav-home, #nav-flavors, #nav-events, #nav-about, #nav-contact, #navbarDropdown {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
-    color: #F9DDB0;
+#nav-home,
+#nav-flavors,
+#nav-events,
+#nav-about,
+#nav-contact,
+#navbarDropdown,
+.buttons {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #f9ddb0;
 }
-#nav-home:hover, #nav-flavors:hover, #nav-events:hover, #nav-about:hover, #nav-contact:hover, #navbarDropdown:hover, #logo-name:hover {
-    color: #f5c577;
+#nav-home:hover,
+#nav-flavors:hover,
+#nav-events:hover,
+#nav-about:hover,
+#nav-contact:hover,
+#navbarDropdown:hover,
+#logo-name:hover {
+  color: #f5c577;
 }
-#nav-home:focus, #nav-flavors:focus, #nav-events:focus, #nav-about:focus, #nav-contact:focus, #navbarDropdown:focus, #logo-name:focus {
-    color: #f5c577;
+#nav-home:focus,
+#nav-flavors:focus,
+#nav-events:focus,
+#nav-about:focus,
+#nav-contact:focus,
+#navbarDropdown:focus,
+#logo-name:focus {
+  color: #f5c577;
 }
 
 .buttons {
-    background-color: #EF3B24;
-    border: 1px solid #EF3B24;
-    border-radius: 20px;
-    padding: 8px 13px 8px 13px;
+  background-color: #ef3b24;
+  border: 1px solid #ef3b24;
+  border-radius: 20px;
+  padding: 8px 13px 8px 13px;
+  color: #f9ddb0;
 }
-.buttons:hover, .buttons:focus {
-    background-color: #cc2f1a;
-    border: 1px solid #cc2f1a;
+.buttons:hover,
+.buttons:focus {
+  background-color: #cc2f1a;
+  border: 1px solid #cc2f1a;
+  color: #f5c577;
 }
 
 #navbar-btn {
-    border: 1px solid #F9DDB0;
+  border: 1px solid #f9ddb0;
 }
 
-#dropdown-list1, #dropdown-list2, #dropdown-list3  {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    font-size: 13.5px;
-    color: #F9DDB0;
+#dropdown-list1,
+#dropdown-list2,
+#dropdown-list3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  font-size: 13.5px;
+  color: #f9ddb0;
 }
 #drop-down {
-    background-color: rgb(0, 0, 0);
-    border: 1px solid #ffffff;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ffffff;
 }
-#dropdown-list1:hover, #dropdown-list2:hover, #dropdown-list3:hover  {
-    background-color: rgb(54, 53, 53);
-    color: #f5c577;
+#dropdown-list1:hover,
+#dropdown-list2:hover,
+#dropdown-list3:hover {
+  background-color: rgb(54, 53, 53);
+  color: #f5c577;
 }
-
 
 /* MAIN HEREO */
 .main-hero-img {
-    height: 760px;
-    min-height: 700px;
-    max-height: 760px; 
+  height: 760px;
+  min-height: 700px;
+  max-height: 760px;
 }
-
-
 
 /* PARALLAX */
 .parallax {
-    height: 30vh;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  height: 30vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.parallax-1{
-    background-image: url('../img/parallax/parallax1.jpg');    
+.parallax-1 {
+  background-image: url("../img/parallax/parallax1.jpg");
 }
-.parallax-2{
-    background-image: url('../img/parallax/parallax2.jpg');    
+.parallax-2 {
+  background-image: url("../img/parallax/parallax2.jpg");
 }
-.parallax-3{
-    background-image: url('../img/parallax/parallax3.jpg');    
+.parallax-3 {
+  background-image: url("../img/parallax/parallax3.jpg");
 }
 @media only screen and (max-device-width: 1366px) {
-    .parallax {
-      background-attachment: scroll;
-    }
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+/* FLAVORS HERO */
+#hero-flavors {
+  background-color: #000000;
 }
